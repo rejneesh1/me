@@ -14,7 +14,7 @@ const Verticaldivider = () => {
           <div className="flex items-center ">
             <p className="w-40 text-right">{i.name}</p>
             <span className="border border-pink-600 h-10 m-3"></span>
-            <p>{i.value}</p>
+            <p className="w-40">{i.value}</p>
           </div>
         );
       })}
