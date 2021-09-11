@@ -11,9 +11,9 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        <div className="flex items-center justify-center m-2">
+        <div className="flex flex-wrap items-center justify-center m-2">
           <Photo />
-          <div className="ml-10">
+          <div className="md:ml-10">
             <h1 className="my-1 text-3xl text-red-700">
               Hello 👋, I'm <span className="text-4xl">Rejneesh Pillai</span>
             </h1>
